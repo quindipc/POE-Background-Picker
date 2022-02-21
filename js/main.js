@@ -1,28 +1,51 @@
 // DOCUMENT 
-document.getElementById('purple').onclick = partyPurple
-document.getElementById('green').onclick = partyGreen
-document.getElementById('blue').onclick = partyBlue
-document.getElementById('red').onclick = partyRed
+document.getElementById('marauder').onclick = marauderBG
+document.getElementById('ranger').onclick = rangerBG
+document.getElementById('witch').onclick = witchBG
+document.getElementById('duelist').onclick = duelistBG
+document.getElementById('shadow').onclick = shadowBG
+document.getElementById('templar').onclick = templarBG
+document.getElementById('scion').onclick = scionBG
+
 
 
 
 // FUNCTIONS 
-function partyPurple() {
-  document.querySelector('body').style.backgroundColor = 'rgba(241,63,247,1)'
-  document.querySelector('body').style.color = 'white'
-}
 
-function partyGreen() {
-  document.querySelector('body').style.backgroundColor = 'rgba(0,253,81,1)'
-  document.querySelector('body').style.color = 'white'
-}
 
-function partyBlue() {
-  document.querySelector('body').style.backgroundColor = 'rgba(0,254,255)'
-  document.querySelector('body').style.color = 'white'
-}
 
-function partyRed() {
-  document.querySelector('body').style.backgroundColor = 'rgb(255, 0, 0)'
-  document.querySelector('body').style.colr = 'white'
+function marauderBG() {
+  document.querySelector('body').style.background = "url(img/POE-Marauder.jpg) no-repeat center";
+  document.querySelector('body').style.color = 'white'
+  return
+}
+function duelistBG() {
+  document.querySelector('body').style.background = "url(img/POE-Duelist.jpg) no-repeat center";
+  document.querySelector('body').style.color = 'white'
+  return
+}
+function rangerBG() {
+  document.querySelector('body').style.background = "url(img/POE-Ranger.jpg) no-repeat center";
+  document.querySelector('body').style.color = 'white'
+  return
+}
+function shadowBG() {
+  document.querySelector('body').style.background = "url(img/POE-Shadow.jpg) no-repeat center";
+  document.querySelector('body').style.color = 'white'
+  return
+}
+function witchBG() {
+  document.querySelector('body').style.background = "url(img/POE-Witch.jpg) no-repeat center";
+  document.querySelector('body').style.color = 'white'
+  return
+}
+function templarBG() {
+  document.querySelector('body').style.background = "url(img/POE-Templar.jpg) no-repeat center";
+  document.querySelector('body').style.color = 'white'
+  return
+}
+function scionBG() {
+  document.querySelector('body').style.background = "url(img/POE-Scion.jpg) no-repeat center";
+  document.querySelector('body').style.color = 'white'
+  return
 }

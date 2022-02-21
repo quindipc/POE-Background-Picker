@@ -1,48 +1,67 @@
-/******************************************
-/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
-/*******************************************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
 
-/* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+html {
+  font-family: 'Roboto Slab', serif;
+  color:white;
+}
+
+body {
+  background: url('/img/POE-Siege-of-atlas.png');
+  background-attachment: fill;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center center;
+}
+
 h1, h2{
   text-align: center;
 }
-img{
-  display: block;
-  height: 300px;
-  margin: 0 auto;
+
+#skill-ber {
+	height: 84px;
 }
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal {
+	min-width: 665px;
+	list-style: none;
+	}
+	ul#horizontal li {
+		display: inline;
+	}
 ul{
-  width: 100px;
-  height: 265px;
-  border: 3px solid black;
+  height: 75px;
   margin: 0 auto;
   list-style: none;
   padding: 0;
 }
 li{
-  width: 94px;
-  height: 65px;
+  width: 125px;
+  height: 125px;
+  display: inline;
+  float:left;
+}
+section img {
+  width: 200px;
+  height: 200px;
 }
 
+section {
+  margin-top: 40em;
+  width: 100%;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-#purple{
-  background: rgba(241,63,247,1);
-}
-#green{
-  background: rgba(0,253,81,1);
-}
-#blue{
-  background: rgba(0,254,255);
-}
-#red {
-  background: rgb(255, 0, 0);
-}
