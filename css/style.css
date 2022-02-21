@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background: url('img/POE-Siege-of-atlas.png');
+  background: url('/img/POE-Siege-of-atlas.png');
   background-attachment: fill;
   background-size: cover;
   background-repeat: no-repeat;
