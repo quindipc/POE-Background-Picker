@@ -9,11 +9,7 @@ document.getElementById('scion').onclick = scionBG
 
 
 
-
 // FUNCTIONS 
-
-
-
 function marauderBG() {
   document.querySelector('body').style.background = "url(img/POE-Marauder.jpg) no-repeat center";
   document.querySelector('body').style.color = 'white'

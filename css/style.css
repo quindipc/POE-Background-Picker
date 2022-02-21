@@ -9,7 +9,7 @@
 /*******************************************/
 html {
   font-family: 'Roboto Slab', serif;
-  color:white;
+  color: white;
 }
 
 body {
@@ -21,38 +21,44 @@ body {
   background-position: center center;
 }
 
-h1, h2{
+h1,
+h2 {
   text-align: center;
 }
 
 #skill-ber {
-	height: 84px;
+  height: 84px;
 }
 
 .table {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
+  display: table;
+  /* Allow the centering to work */
+  margin: 0 auto;
 }
 
 ul#horizontal {
-	min-width: 665px;
-	list-style: none;
-	}
-	ul#horizontal li {
-		display: inline;
-	}
-ul{
+  min-width: 665px;
+  list-style: none;
+}
+
+ul#horizontal li {
+  display: inline;
+}
+
+ul {
   height: 75px;
   margin: 0 auto;
   list-style: none;
   padding: 0;
 }
-li{
+
+li {
   width: 125px;
   height: 125px;
   display: inline;
-  float:left;
+  float: left;
 }
+
 section img {
   width: 200px;
   height: 200px;
@@ -62,6 +68,3 @@ section {
   margin-top: 40em;
   width: 100%;
 }
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
